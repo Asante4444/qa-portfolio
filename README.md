@@ -12,6 +12,17 @@ This portfolio contains:
 - 🐞 **Bug Reports** — Detailed reports following common defect reporting standards
 - 🧰 Hands-on practice with real test sites like [Practice Test Automation](https://practicetestautomation.com/)
 
+--- 
+
+## 🧪 Automation Tests
+
+This section includes automated test scripts written in Python using Selenium.
+
+### `test_valid_login_with_brave.py`
+- Automates a valid login scenario on [Practice Test Automation Login Page](https://practicetestautomation.com/practice-test-login/)
+- Uses the Brave browser via Selenium WebDriver
+- Helps validate that the login functionality is working correctly for correct credentials
+
 ---
 
 ## 📁 Folder Structure
