@@ -1,70 +1,72 @@
-# 🧪 QA Portfolio – Manual Software Testing
+# 🧪 QA Portfolio – Manual & Automation Testing
 
-Welcome to my QA portfolio! I'm an aspiring **Manual QA Tester** building real-world testing skills while preparing for a future in **Cybersecurity (Blue Team/Defensive Security)**. This repository showcases my ability to document, analyze, and report software quality issues using industry practices.
+Welcome to my QA portfolio! I'm an aspiring **QA Tester** building real-world testing skills while preparing for a future in **Cybersecurity (Blue Team/Defensive Security)**. This repository showcases my ability to write, execute, and maintain both **manual** and **automated** tests using industry best practices.
 
 ---
 
 ## 🔍 What You'll Find Here
 
-This portfolio contains:
+### 📘 Manual Testing
+- ✅ Well-structured test cases
+- 🐞 Bug reports with full reproduction steps, expected/actual results, and severity
 
-- ✅ **Test Cases** — Step-by-step scenarios validating software behavior
-- 🐞 **Bug Reports** — Detailed reports following common defect reporting standards
-- 🧰 Hands-on practice with real test sites like [Practice Test Automation](https://practicetestautomation.com/)
-
---- 
-
-## 🧪 Automation Tests
-
-This section includes automated test scripts written in Python using Selenium.
-
-### `test_valid_login_with_brave.py`
-- Automates a valid login scenario on [Practice Test Automation Login Page](https://practicetestautomation.com/practice-test-login/)
-- Uses the Brave browser via Selenium WebDriver
-- Helps validate that the login functionality is working correctly for correct credentials
+### 🤖 Automation Testing (Selenium + Python)
+- Login functionality tests
+- Form validation and negative test scenarios
+- Browser-based testing using **Brave via Selenium WebDriver**
 
 ---
 
 ## 📁 Folder Structure
 
 qa-portfolio/
-├── test-cases/ # Manual test cases with IDs, steps, expected vs actual results
-├── bug-reports/ # Reproducible bug reports with environment details and severity
+├── manual-tests/
+│ ├── test-cases/
+│ └── bug-reports/
+├── automation-tests/
+│ ├── login/
+│ ├── form-submission/
+│ └── README.md
 
 ---
 
-## ✍️ Featured Work
+## 🚀 Featured Examples
 
-### 🔹 Test Case: Valid Login
-- ✅ ID: `test-case-valid-login-01`
-- 🎯 Goal: Validate successful login flow using correct credentials
-- 🔗 [View Test Case](./test-cases/test-case-valid-login-01.md)
+### 🔹 Manual Test Case: Valid Login
+- **ID:** `test-case-valid-login-01`
+- **Purpose:** Confirm successful login with valid credentials  
+- [View](./manual-tests/test-cases/test-case-valid-login-01.md)
 
-### 🔹 Bug Report: Login Error Message Persisting
-- 🐞 ID: `bug-report-01`
-- 💡 Issue: Error message not dismissed even after successful login
-- 🔗 [View Bug Report](./bug-reports/bug-report-01.md)
+### 🔹 Bug Report: Login Error Not Dismissed
+- **ID:** `bug-report-01`
+- **Issue:** Error persists after valid login  
+- [View](./manual-tests/bug-reports/bug-report-01.md)
+
+### 🔹 Automation Script: Valid Login with Brave
+- Tests login on [Practice Test Automation](https://practicetestautomation.com/practice-test-login/)
+- [View](./automation-tests/login/test_valid_login_with_brave.py)
 
 ---
 
 ## 💼 About Me
 
-I'm transitioning into tech from a non-technical background and actively working toward:
-- Entry-level Manual QA Tester roles (Remote preferred)
-- Growing familiarity with tools like Jira, TestRail, GitHub, Selenium (basic)
-- Cybersecurity (Blue Team) training in the background
+I'm transitioning into tech from a non-technical background. My goals include:
+- Landing a **remote QA Tester** role
+- Becoming confident with tools like GitHub, Selenium, Jira, and TestRail
+- Gaining foundational experience in **Cybersecurity**
 
 ---
 
-## 🚀 Future Goals
+## 🌱 What's Next
 
-- Add test plans, exploratory testing notes, and automation experiments
-- Practice using more complex test data and environments
-- Secure my first role as a QA Tester and grow into Cybersecurity from there
+- Expand test coverage for more use cases
+- Document exploratory testing sessions
+- Integrate Git workflows and CI/CD testing practices
+- Prepare for cybersecurity certification while gaining QA experience
 
 ---
 
 ## 📫 Connect
 
-Want to collaborate or view my work?  
-Check out this repo and feel free to leave feedback or suggestions!
+Have feedback or collaboration ideas?  
+Check out the repo and feel free to reach out or submit suggestions!
